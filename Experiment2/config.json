@@ -1,0 +1,23 @@
+{
+    "api_keys": {
+        "zhipu": "YOUR_ZHIPU_API_KEY",
+        "chatgpt": "YOUR_OPENAI_API_KEY",
+        "claude": "YOUR_ANTHROPIC_API_KEY",
+        "gemini": "YOUR_GOOGLE_API_KEY",
+        "deepseek": "YOUR_DEEPSEEK_API_KEY",
+        "grok": "YOUR_XAI_API_KEY"
+    },
+    "models": {
+        "chatgpt": "gpt-4o",
+        "claude": "claude-sonnet-4-20250514",
+        "gemini": "gemini-2.0-flash",
+        "deepseek": "deepseek-chat",
+        "grok": "grok-3"
+    },
+    "experiment": {
+        "num_turns": 10,
+        "num_characters": 5,
+        "output_dir": "results"
+    },
+    "enabled_llms": ["chatgpt", "claude", "gemini", "deepseek", "grok"]
+}
