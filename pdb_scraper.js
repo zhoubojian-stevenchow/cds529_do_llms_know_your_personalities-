@@ -1,7 +1,7 @@
 async function scrapeDirectIDsV9() {
     // --- CONFIGURATION ---
     const START_ID = 1;
-    const END_ID = 1990000; // The profile ID where your scraping ends
+    const END_ID = 10; // The profile ID where your scraping ends
     const CONCURRENCY_LIMIT = 500; // Reduced to 5 to stop network congestion
     const CHUNK_SIZE = 1000;     // Saving more often to be safe
     
